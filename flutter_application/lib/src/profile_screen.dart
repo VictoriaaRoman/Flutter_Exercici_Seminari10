@@ -31,9 +31,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
         this._surname = response.data['surname'];
         this._email = response.data['email'];
       });
-      print('User Information!');
-    } else {
-      print('Ha habido un error');
     }
   }
 
